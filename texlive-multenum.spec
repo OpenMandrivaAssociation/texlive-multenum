@@ -1,3 +1,9 @@
+# revision 21775
+# category Package
+# catalog-ctan /macros/latex/contrib/multenum
+# catalog-date 2011-03-20 19:39:20 +0100
+# catalog-license lppl1
+# catalog-version undef
 Name:		texlive-multenum
 Version:	20110320
 Release:	1
@@ -43,6 +49,7 @@ environment goes some way to making such lists look neater.
 %doc %{_texmfdistdir}/doc/latex/multenum/multienum.article
 %doc %{_texmfdistdir}/doc/latex/multenum/multienum.pdf
 %doc %{_texmfdistdir}/doc/latex/multenum/multienum.sample
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ environment goes some way to making such lists look neater.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
