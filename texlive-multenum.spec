@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-multenum
 Version:	20110320
-Release:	4
+Release:	5
 Summary:	Multi-column enumerated lists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multenum
