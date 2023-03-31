@@ -1,6 +1,6 @@
 Name:		texlive-multenum
 Version:	21775
-Release:	1
+Release:	2
 Summary:	Multi-column enumerated lists
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multenum
