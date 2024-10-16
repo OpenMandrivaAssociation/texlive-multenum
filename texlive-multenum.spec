@@ -3,7 +3,7 @@ Version:	21775
 Release:	2
 Summary:	Multi-column enumerated lists
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multenum
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/multenum
 License:	LPPL1
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/multenum.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/multenum.doc.r%{version}.tar.xz
